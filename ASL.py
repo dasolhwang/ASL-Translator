@@ -34,7 +34,7 @@ while(cap.isOpened()):
 		if(label!=None):
 			if(temp==0):
 				previouslabel=label
-	        if previouslabel==label :
+	        if previouslabel==label:
 	        	previouslabel=label
 	        	temp+=1
 	        else :
